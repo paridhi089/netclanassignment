@@ -15,27 +15,26 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-
-            <io.getstream.avatarview.AvatarView
-                android:id="@+id/personal_rv_avatarView"
-                android:layout_width="70sp"
-                app:avatarViewBorderWidth="0dp"
-                android:layout_height="100sp"
-                android:scaleType="center"
-                app:layout_constraintDimensionRatio="0"
-                android:layout_marginStart="-32dp"
-                android:layout_marginTop="32dp"
-                android:background="#00ffffff"
-                android:translationZ="90dp"
-                app:circularflow_radiusInDP="48dp"
-                app:layout_constraintStart_toStartOf="@+id/cardView"
-                app:layout_constraintTop_toTopOf="@+id/cardView"
-                app:avatarViewInitials="OK"
-                app:avatarViewBorderRadius="20dp"
-                app:avatarViewInitialsBackgroundColor="@color/avatarBackground"
-                app:avatarViewInitialsTextColor="@color/avatarInitialColor"
-                app:avatarViewInitialsTextStyle="bold"
-                app:avatarViewShape="rounded_rect" />
+        <io.getstream.avatarview.AvatarView
+            android:id="@+id/personal_rv_avatarView"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="-32dp"
+            android:layout_marginTop="-4dp"
+            android:background="#00ffffff"
+            android:scaleType="center"
+            android:translationZ="90dp"
+            app:avatarViewBorderRadius="12dp"
+            app:avatarViewBorderWidth="0dp"
+            app:avatarViewInitials="OK"
+            app:avatarViewInitialsBackgroundColor="@color/avatarBackground"
+            app:avatarViewInitialsTextColor="@color/avatarInitialColor"
+            app:avatarViewInitialsTextStyle="bold"
+            app:avatarViewShape="rounded_rect"
+            app:circularflow_radiusInDP="48dp"
+            app:layout_constraintDimensionRatio="0"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toTopOf="@+id/cardView" />
 
 
 
@@ -80,12 +79,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50dp"
+                    android:layout_marginTop="16dp"
                     android:text="Omar Khan"
                     android:textColor="@color/textColor"
                     android:textSize="14sp"
                     android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/inviteBtnTV"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/inviteBtnTV" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/personal_rv_loc_occupation_tv"
@@ -106,7 +108,6 @@
                     android:text="Within 300-400 m"
                     android:textColor="@color/textColor"
                     android:textSize="14sp"
-                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="@+id/personal_rv_loc_occupation_tv"
                     app:layout_constraintTop_toBottomOf="@+id/personal_rv_loc_occupation_tv" />
 
@@ -114,7 +115,7 @@
                     android:id="@+id/cardView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12dp"
                     android:padding="0dp"
                     android:paddingStart="0dp"
                     app:cardCornerRadius="32dp"
@@ -125,10 +126,10 @@
                         android:id="@+id/progressBar"
                         style="?android:attr/progressBarStyleHorizontal"
                         android:layout_width="120sp"
-                        android:layout_height="10sp"
-                        android:progressTint="@color/progress"
+                        android:layout_height="6sp"
                         android:indeterminateTint="@color/progressIncomplete"
                         android:progress="40"
+                        android:progressTint="@color/progress"
                         android:scaleY="4"
                         android:scrollbarSize="16dp" />
 
@@ -140,14 +141,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="1dp"
                     android:layout_marginEnd="16dp"
                     android:text="Coffe | Bussiness | Friendship"
                     android:textColor="@color/textColor"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+                    app:layout_constraintTop_toBottomOf="@+id/profileScore" />
 
                 <TextView
                     android:id="@+id/personal_rv_about_tv"
@@ -155,11 +156,22 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Hi community! I am open to new connections  &quot;😊&quot;"
-                    android:textColor="@color/textColor"
-                    android:textSize="12sp"
+                    android:textColor="@color/status"
+                    android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="@+id/personal_rv_interests_tv"
                     app:layout_constraintStart_toStartOf="@+id/personal_rv_interests_tv"
                     app:layout_constraintTop_toBottomOf="@+id/personal_rv_interests_tv" />
+
+                <TextView
+                    android:id="@+id/profileScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="6dp"
+                    android:text="Profile Score - 18%"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@+id/cardView2"
+                    app:layout_constraintTop_toBottomOf="@+id/personal_rv_distance_tv" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>

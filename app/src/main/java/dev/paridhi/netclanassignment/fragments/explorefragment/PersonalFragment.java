@@ -75,7 +75,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 125,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -85,7 +85,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 225,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -95,7 +95,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 125,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -105,7 +105,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 125,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -115,7 +115,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 777,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -125,7 +125,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 236,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+               about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -135,7 +135,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 695,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -145,7 +145,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 725,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -155,7 +155,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 125,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
 
@@ -166,7 +166,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 175,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -176,7 +176,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 125,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -186,7 +186,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 225,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -196,7 +196,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 125,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -206,7 +206,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 125,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -216,7 +216,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 777,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -226,7 +226,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 236,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                 about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -236,7 +236,7 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 695,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         personalPostDataList.add(new PersonalPostData(
@@ -246,13 +246,14 @@ public class PersonalFragment extends Fragment {
                 interests,
                 "",
                 725,
-                "Hi community! I am open to new connections  &quot;\uD83D\uDE0A&quot;"
+                about
         ));
 
         adapter=new PersonalRecyclerAdapter(personalPostDataList,getContext());
         binding.personalFragRv.setAdapter(adapter);
         LinearLayoutManager lm=new LinearLayoutManager(getContext());
         binding.personalFragRv.setLayoutManager(lm);
+
 
 
 

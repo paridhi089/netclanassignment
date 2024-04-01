@@ -11,4 +11,5 @@
     <color name="progress">#74858f</color>
     <color name="progressIncomplete">#d2d2d2</color>
     <color name="toolBarColor">#0e2e43</color>
+    <color name="status">#436378</color>
 </resources>

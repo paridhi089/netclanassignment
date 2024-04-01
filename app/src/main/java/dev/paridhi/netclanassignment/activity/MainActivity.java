@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         username="Paridhi Prisha Saikia";
         location="Malleswaram, Bengaluru";
 
-        binding.toolbarTitle.setText("Howdy "+username);
+        binding.toolbarTitle.setText("Howdy "+username+" !!");
         binding.toolbarSubTitle.setText(location);
 
         binding.refineButton.setOnClickListener(new View.OnClickListener() {

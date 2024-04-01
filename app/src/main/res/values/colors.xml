@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="mediumGray">#808080</color>
+    <color name="textColor">#17333c</color>
+    <color name="avatarBackground">#b8c5cd</color>
+    <color name="avatarInitialColor">#103c4f</color>
+    <color name="mutedBlue">#b2c1c5</color>
+    <color name="progress">#74858f</color>
+    <color name="progressIncomplete">#d2d2d2</color>
+    <color name="toolBarColor">#0e2e43</color>
+</resources>
